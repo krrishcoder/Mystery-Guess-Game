@@ -1,0 +1,29 @@
+.title-make-a-guess {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* body {
+    font-family: 'Rock Salt', cursive;
+} */
+/* 
+body {
+    font-family: 'Unica One', sans-serif;
+} */
+
+body {
+    font-family: 'Cinzel', serif;
+}
+
+/* 
+body {
+    font-family: 'Roboto Slab', serif;
+} */

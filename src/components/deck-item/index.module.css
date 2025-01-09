@@ -1,0 +1,45 @@
+
+
+.btn {
+   height: 272px;
+    width: 140px;
+    background-color: #C2FBD7;
+    border-radius: 5px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: #008000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 0 25px;
+    transition: all 200ms;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #AFE6C3;
+    transform: scale(1.05);
+}
+
+
+
+
+.buttongrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+.buttongrid .btn {
+    margin: 1px;
+}
+
+
+.btnactive {
+    transform: scale(0.98); /* Slight shrink effect when clicked */
+    background-color: #2980b9; /* Same as hover */
+  }
+
+
