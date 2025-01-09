@@ -158,6 +158,7 @@ useEffect(() => {
 
       <h2 className='title-make-a-guess'>Mystery Guess</h2>
       <h4>hii from coder</h4>
+      <h3>hii from coder 2nd time</h3>
           <h3>Rule :-  guess a card , we will randomly throw card if you win we give a coin </h3>
         
           <h3 style={{color:'red'}}>{greet}</h3>
